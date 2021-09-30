@@ -1,0 +1,37 @@
+body {
+    width: 420px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.background-image {
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-image: url('sun.jpg');
+    width: 450px;
+    height: 405px;
+    margin-top: -20px;
+    -webkit-filter: blur(3.5px);
+    -moz-filter: blur(3.5px);
+    -o-filter: blur(3.5px);
+    -ms-filter: blur(3.5px);
+    filter: blur(3.5px);
+  }
+
+p {
+    display: inner-flex;
+    margin: auto;
+    border: moccasin;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 20px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:500;
+    color: black;
+    opacity: 0.68;
+    position: relative;
+}
